@@ -18,6 +18,13 @@ def spele():
 @app.route('/kalkulators')
 def kalkulators():
   return render_template('kalkulators.html')
+  
+@app.route('/saites')
+def saites():
+  return render_template('saites.html')
+@app.route('/veidotaji')
+def veidotaji():
+  return render_template('veidotaji.html')
 
 @app.route('/rezultati')
 def results():
