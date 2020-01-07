@@ -13,7 +13,7 @@
     margin-top: 0;
     cursor: pointer;
     width: 100%;
-    background:#D3D3D3;
+    background: rgb(184, 181, 181);
     border-radius: 10px;
     font-family: Century Gothic;
     letter-spacing: 5px;
@@ -29,7 +29,7 @@
     width: 280px;
     height: 50px;
     margin-top: 4%;
-    background: #D3D3D3;
+    background:  rgb(184, 181, 181);
    transition-duration: 0.2s;
   
   }
@@ -37,16 +37,16 @@
     color: #EE872A;
     }
   .aaa:hover{
-    background: #D3D3D3;
+    background:  rgb(184, 181, 181);
     color: #EE872A;
   }
   .divaaa:nth-child(odd){
     transform: perspective(300px) rotateY(45deg);
-    box-shadow: -2px 2px 7px#D3D3D3;
+    box-shadow: -2px 2px 7p rgb(184, 181, 181);
   }
   .divaaa:nth-child(even){
     transform: perspective(300px) rotateY(-45deg);
-      box-shadow: 2px 2px 7px #D3D3D3;
+      box-shadow: 2px 2px 7px rgb(184, 181, 181);
   }
   .divaaa:hover{
     transform: rotateY(0);
