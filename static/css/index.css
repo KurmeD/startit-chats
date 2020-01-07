@@ -59,7 +59,7 @@
   .middle {
       width: 100%;
       padding: 0 0 300px;
-      position: relative;
+      position: absolute;
   }
   .middle:after {
       display: table;
