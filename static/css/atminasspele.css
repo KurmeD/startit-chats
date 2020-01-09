@@ -1,5 +1,5 @@
 .laukums {
-  max-width: 70%;
+  max-width: 64%;
   display: grid;
   grid-template-columns: auto auto auto auto;
   float: right;
@@ -11,7 +11,7 @@ span{
 .teksts{
   padding: 5px 10px;
 	margin: 5px;
-  background:#ffffff;
+  background:#1b1b1b;
   border-radius: 10px;
   box-shadow: inset 2px 2px 3px rgba(0, 0, 0, .6),
                 inset -2px -2px 3px rgba(255, 255, 255, .6);
@@ -25,6 +25,7 @@ text-align: center;
 font-family: sans-serif;;
 }
 .poga{
+  color:#ffffff;
   text-transform: uppercase;
 	background:#1b1b1b;
 	padding: 5px 10px;
